@@ -1,0 +1,101 @@
+body{
+	color:#333333;
+	font-family:Arial,sans-serif;
+	text-align: center;	
+	background-color: #e1eaf3;
+	font-size:12px;
+}
+#wrapper{
+	margin: 0 auto;
+	text-align: left;
+	padding: 30px;
+	width: 700px;
+	border:1px solid #97AEC9;
+	background-color: #FFF;
+}
+h2{
+	border-bottom:1px solid #DCE3EB;
+	margin-bottom:15px;	
+	font-size:18px;
+	line-height:1.5em;
+	padding:8px 0 5px;
+}
+form li{
+	list-style: none;
+	list-style-type:none;
+	margin-bottom: 5px;
+	display: block;
+	height: 27px;
+	padding: 5px;
+}
+#li_tatext{
+	height: 60px;
+}
+#li_lsttype{
+	height: 120px;	
+}
+form legend{
+	font-size:18px;	
+	line-height:1.5em;
+	padding:8px 5px;
+	color:#333333;
+}
+form fieldset{
+	border:1px solid #d2e8fa;
+	margin-bottom:10px;	
+	background-color: #fcfeff;
+}
+form #label_option_rndradio label{
+	padding: 0px;	
+	width: 50px;
+}
+form label{
+	color:#3E434A;
+	cursor:pointer;
+	float:left;
+	font-size:13px;
+	width:50px;
+	padding: 3px 10px 0px 5px;
+	font-weight:bold;
+	text-align: right;
+}
+
+form input, form textarea, form select{
+	font-family:Arial,sans-serif;
+	color:#333333;
+	float: left;
+	width:208px;
+	font-size:13px;
+	line-height:1;
+	margin:0;
+	padding:3px;
+}
+form .description{
+	float: left;
+	padding-left: 10px;
+	padding-top: 3px;
+	color:#666666;
+	font-style:italic;
+}
+form .error .description{
+	display: none;	
+}
+form .error{
+	background-color:#FFF9D7;
+	border-color:#E2C822;	
+}
+form .errormessage{
+	display: block;
+	padding-left: 10px;
+	color:#666666;
+	font-weight: bold;
+	padding-top: 5px;
+	float: left;
+}
+#btnsubmit{
+	background-color:#3E434A;
+	border:1px solid #3E434A;
+	color: #FFF;
+	font-weight: bold;
+	width: 70px;
+}

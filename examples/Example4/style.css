@@ -1,0 +1,130 @@
+body{
+	color:#333333;
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	text-align: center;	
+	font-size:12px;
+}
+#wrapper{
+	margin: 30px auto;
+	text-align: left;
+	padding:15px 25px 20px;
+	width: 400px;
+	border:2px solid #E8E8E8;
+}
+h2{
+	border-bottom:4px solid #BFBFBF;
+	color:#282828;
+	font-size:15px;
+	font-weight:bold;
+	margin:0;
+	padding:10px 0 5px;
+	text-transform:uppercase;
+}
+form li{
+	list-style: none;
+	list-style-type:none;
+	margin-bottom: 5px;
+	display: block;
+}
+#li_tatext{
+	height: 60px;
+}
+#li_lsttype{
+	height: 120px;	
+}
+form legend{
+	background:#FBFBFB none repeat scroll 0 0;
+	border:1px solid #E8E8E8;
+	color:#282828;
+	font-size:12px;
+	margin:30px 0 25px;
+	padding:5px 10px;
+	text-align:left;
+	font-weight: bold;
+}
+form fieldset{
+	border:1px solid #E8E8E8;
+	margin: 5px 10px;	
+	background-color: #FFF;
+	padding: 0px 20px 20px 20px;
+}
+form #label_option_rndradio label{
+	padding: 0px;	
+	width: 50px;
+}
+form label{
+	color:#282828;
+	cursor:pointer;
+	font-size:12px;
+	padding: 4px 10px 0px 0px;
+	display: block;
+	margin: 0px;
+}
+
+form input, form textarea, form select{
+	-x-system-font:none;
+	border:1px solid #CDCDCD;
+	color:#282828;
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size:12px;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:normal;
+	margin:5px 0 0;
+	width:70%;
+}
+#txtname{
+	background:transparent url(images/ico_user.gif) no-repeat scroll 2% 50%;
+	padding:6px 0 6px 25px;
+}
+#txtemail{
+	background:transparent url(images/ico_mail.gif) no-repeat scroll 2% 50%;
+	padding:6px 0 6px 25px;
+}
+#txtsubject{
+	background:transparent url(images/ico_home.gif) no-repeat scroll 2% 50%;
+	padding:6px 0 6px 25px;
+}
+form .description{
+	float: left;
+	padding-left: 10px;
+	padding-top: 3px;
+	color:#666666;
+	font-style:italic;
+}
+form .error .description{
+	display: none;	
+}
+.error label{
+	font-weight: bold;
+	color: #990000;
+}
+form .errormessage{
+	display: block;
+	padding: 3px 0px;
+	color:#990000;
+	font-style:italic;
+}
+input#btncontact:hover {
+	background-color:#CC0000;
+	color:#FFFFFF;
+	cursor:pointer;
+	padding:6px;
+	width:100px;
+}
+input#btncontact{
+	background-color:#282828;
+	border:0 none;
+	color:#FFFFFF;
+	cursor:pointer;
+	padding:6px;
+	width:100px;
+}
+.requiredlabel{
+	font-size: 10px;
+	color: #BFBFBF;
+	padding-left: 5px;
+}

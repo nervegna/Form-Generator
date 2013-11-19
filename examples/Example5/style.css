@@ -1,0 +1,122 @@
+body{
+	color:#333333;
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	text-align: center;	
+	font-size:12px;
+	background: #edf3ff;
+}
+#wrapper{
+	margin: 30px auto;
+	text-align: left;
+	padding:15px 25px 20px;
+	width: 500px;
+	background-color: #FFF;
+}
+h2{
+	color:#282828;
+	font-size:18px;
+	font-weight:bold;
+	margin:0;
+	padding:10px 0 5px;
+}
+form li{
+	list-style: none;
+	list-style-type:none;
+	margin-bottom: 5px;
+	display: block;
+}
+#li_tatext{
+	height: 60px;
+}
+#li_lsttype{
+	height: 120px;	
+}
+form legend{
+	color:#04365b;
+	font-size:16px;
+	text-align:left;
+	font-weight: bold;
+}
+form fieldset{
+	margin-bottom: 5px 10px;	
+	background-color: #f4f3ee;
+	padding: 10px 20px 20px 20px;
+	margin-top: 10px;
+	border: none;
+	position: relative;
+}
+form label{
+	color:#282828;
+	cursor:pointer;
+	font-size:12px;
+	padding: 4px 10px 0px 0px;
+	display: block;
+	margin: 0px;
+	font-weight: bold;
+}
+
+form input, form textarea, form select{
+	-x-system-font:none;
+	border:1px solid #ccc;
+	color:#282828;
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size:12px;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:normal;
+	margin:5px 0 0;
+	width:70%;
+	padding:6px 0 6px 6px;
+}
+#rndvisits{
+	margin-right: 5px;
+}
+#label_option_rndvisits{
+	font-weight: normal;
+}
+form .description{
+	padding-left: 0px;
+	padding-top: 3px;
+	color:#666762;
+	font-style:italic;
+	font-size: 10px;
+	display: block;
+}
+form .error .description{
+	display: none;	
+}
+.error label{
+	font-weight: bold;
+	color: #990000;
+}
+form .errormessage{
+	display: block;
+	padding: 3px 0px;
+	color:#990000;
+	font-style:italic;
+	font-size:10px;
+}
+input#btncontact:hover {
+	background-color:#CC0000;
+	color:#FFFFFF;
+	cursor:pointer;
+	padding:6px;
+	width:100px;
+}
+input#btncontact{
+	background-color:#282828;
+	border:0 none;
+	color:#FFFFFF;
+	cursor:pointer;
+	padding:6px;
+	width:100px;
+}
+.requiredlabel{
+	font-size: 10px;
+	color: #1e7e03;
+	padding-left: 5px;
+	font-weight: normal;
+}
